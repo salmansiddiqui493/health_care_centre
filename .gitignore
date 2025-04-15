@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Flask instance folder
+instance/
+
+# Flask environment variables
+.env
+*.env
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode / PyCharm / other IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+pip-wheel-metadata/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and local files
+*.log
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Compiled HTML / static assets
+*.sass-cache/
+*.egg-info/
+dist/
+build/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+.cache
+
+# Optional: ignore datasets
+datasets/
+
+# Optional: model files
+models/
+*.h5
+*.pkl
+*.pt

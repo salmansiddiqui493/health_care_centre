@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Health Care Center</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'DM Sans', sans-serif;
+        color: #001F3F;
+        background: linear-gradient(135deg, #e0f7ff, #f0faff);
+        background-size: 400% 400%;
+        animation: gradientMove 15s ease infinite;
+      }
+
+      @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+
+      h1, h4 {
+        font-family: 'Playfair Display', serif;
+        color: #003366;
+      }
+
+      p {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        font-family: 'Raleway', sans-serif;
+        color: #00334d;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 20px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(0, 51, 102, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+      }
+
+      .section {
+        margin-bottom: 40px;
+      }
+
+      .section h4 {
+        position: relative;
+        padding-left: 10px;
+        margin-bottom: 15px;
+      }
+
+      .section h4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 5px;
+        height: 80%;
+        background: #003366;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        color: #00334d;
+        opacity: 0.7;
+      }
+
+      .nav-btn {
+        display: inline-block;
+        padding: 10px 24px;
+        margin: 10px 8px;
+        background-color: #4a85e8;
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 50px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+
+      .nav-btn:hover {
+        background-color: #356ac3;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation Buttons -->
+    <div class="text-center mt-4">
+      <a href="/" class="nav-btn">← Home</a>
+      <a href="/about" class="nav-btn">About</a>
+      <a href="/blog" class="nav-btn">Blog</a>
+      <a href="/developer" class="nav-btn">Developer</a>
+    </div>
+
+    <div class="container">
+      <h1 class="text-center mb-5">Contact Us</h1>
+
+      <div class="section">
+        <h4>Need Assistance?</h4>
+        <p>Have questions or need help? We're here for you! Whether it's feedback, a query, or technical support — don't hesitate to reach out.</p>
+      </div>
+
+      <div class="section">
+        <h4>Customer Support</h4>
+        <p>Our support team is ready to assist you. From using the app to providing health tips, we're just an email away.</p>
+      </div>
+
+      <div class="section">
+        <h4>Get in Touch</h4>
+        <p><strong>Email:</strong> habeebmustafa27@gmail.com<br>We're committed to responding promptly and ensuring you have a great experience.</p>
+      </div>
+
+      <div class="section">
+        <h4>Stay Connected</h4>
+        <p>Follow us on social media for updates, wellness tips, and news. Join our growing community on Facebook and Instagram!</p>
+      </div>
+
+      <div class="section">
+        <h4>Our Location</h4>
+        <p>Hyderabad, India</p>
+      </div>
+
+      <footer>© 2025 Health Care Center. Your health, our priority.</footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
